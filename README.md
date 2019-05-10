@@ -1,4 +1,4 @@
-#Smart Home Security System
+# Smart Home Security System
 
 The primary objectives of the system are:
 
