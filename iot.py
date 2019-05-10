@@ -50,7 +50,8 @@ try:
 			print("PIR Detected")
 			
 			# Your IFTTT URL with event name, key and json parameters (values)
-			r = requests.post('https://maker.ifttt.com/trigger/sens_1/with/key/nwKa2db3VvfkdHE8kMhbU47RJkYkPmXXOqDKHHaF1xm', params={"value1":"none","value2":"none","value3":"none"})
+			r = requests.post('https://maker.ifttt.com/trigger/event/with/key/YourKey', params={"value1":"none","value2":"none","value3":"none"})
+			# replace YourKey with the key and event with event name
 			
 			# Record new previous state
 			previousstate[0] = 1
@@ -68,7 +69,7 @@ try:
 			print("Door Magnet detached")
 			
 			# Your IFTTT URL with event name, key and json parameters (values)
-			r = requests.post('https://maker.ifttt.com/trigger/sens_2/with/key/nwKa2db3VvfkdHE8kMhbU47RJkYkPmXXOqDKHHaF1xm', params={"value1":"none","value2":"none","value3":"none"})
+			r = requests.post('https://maker.ifttt.com/trigger/event/with/key/YourKey', params={"value1":"none","value2":"none","value3":"none"})
 			
 			# Record new previous state
 			previousstate[1] = 1
@@ -84,7 +85,7 @@ try:
 			print("Vibration detected")
 			
 			# Your IFTTT URL with event name, key and json parameters (values)
-			r = requests.post('https://maker.ifttt.com/trigger/1234/with/key/nwKa2db3VvfkdHE8kMhbU47RJkYkPmXXOqDKHHaF1xm', params={"value1":"none","value2":"none","value3":"none"})
+			r = requests.post('https://maker.ifttt.com/trigger/event/with/key/YourKey', params={"value1":"none","value2":"none","value3":"none"})
 			
 			# Record new previous state
 			previousstate[2] = 1
