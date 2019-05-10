@@ -29,14 +29,14 @@ import tensorflow as tf
 from twilio.rest import Client
 
 # Account Sid and Auth Token from twilio.com/console
-account_sid = 'AC7bc49744715cf967453577356351a027'
-auth_token = '097a78944fa4fcd7132727131b26193c'
+account_sid = # Your account sid
+auth_token = # Your authentication token
 client = Client(account_sid, auth_token)
 
 cloudinary.config(
-  cloud_name = 'diabloash',  
-  api_key = '514458418544597',  
-  api_secret = '0-AwrFfVWoILjPmiL-cDLgPxXDQ'  
+  cloud_name = # Your cloud name,  
+  api_key = # Your api key,  
+  api_secret = # Your secret  
 )
 
 def get_session():
@@ -124,8 +124,8 @@ while True:
             message = client.messages.create(
             	           media_url = 'http://res.cloudinary.com/diabloash/image/upload/intruder.jpg',
                            body= 'Intruder Detected',
-                           from_='whatsapp:+14155238886',
-                           to='whatsapp:+917601897265'
+                           from_='whatsapp:', # enter WhatsApp number
+                           to='whatsapp:' # enter WhatsApp number
                           )
             delete_resources_by_tag("uploaded")
             draw = cv2.cvtColor(draw, cv2.COLOR_BGR2RGB)
