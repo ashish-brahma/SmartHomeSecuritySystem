@@ -2,7 +2,7 @@
 
 The primary objectives of the system are:
 
-•	Perform Face Recognition
+•	Perform Face Recognition for access control
 •	Detect weapons in video stream
 •	Send timely alerts triggered by sensors
 •	Detect tampering of the system
