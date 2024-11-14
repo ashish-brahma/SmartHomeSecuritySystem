@@ -13,3 +13,5 @@ Face Recognition system code was taken from work done by Adrian Rosebrock of PyI
 
 The model used for object detection in weapon detector can be found here-
 https://github.com/fizyr/keras-retinanet/releases
+
+Credits go to Netherlands based software product Fizyr. (https://fizyr.com/)
